@@ -1,0 +1,44 @@
+ ------
+ End User Guide
+ ------
+ Marco Ruiz
+ ------
+ February 2010
+ ------
+
+Using RSE
+
+ "Record Set Explorer" is a system implemented as a web application; which comes pre-bundled with its own web server.
+ Such system provides a rich interface to end users to allow them to easily explore the targeted data. In order to achive 
+ this it levarages on Javascript, JSON and AJAX technologies to smooth out the user experience. 
+
+* {Launching}
+ 
+ This application is launched by invoking:  
+ 
+---
+	$RSE_HOME/bin/rse.sh [IP_PORT_WHERE_TO_RUN_RSE_WEB_SERVER]
+---
+
+* Interacting
+
+ Thereafter you can use a web browser of your choice and connect to this web application by accessing the URL 
+ (from within the computer where you launch RSE):
+ 
+---
+	http://localhost:[IP_PORT_WHERE_TO_RUN_RSE_WEB_SERVER]
+---
+
+ ... or (from any other computer):
+ 
+---
+	http://[HOST_NAME]:[IP_PORT_WHERE_TO_RUN_RSE_WEB_SERVER]
+---
+
+ ... assuming the computer where RSE has been launched can be reached through the internet
+ as <<HOST_NAME>>.
+ 
+ Thereafter you should be able to interact with this application as shown in the introductory 
+ <{{{http://www.youtube.com/watch?v=ebWqTHf5i5Y&hd=1}YouTube demo video}}>; which can also be found on the project's main page. 
+ 
+ 

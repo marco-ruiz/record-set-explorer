@@ -1,0 +1,86 @@
+ ------
+ Installation
+ ------
+ Marco Ruiz
+ ------
+ February 2008
+ ------
+
+{Download} RSE ${buildVersion}
+
+ Download one of the RSE distribution bundles:
+
+*---------------------------------+------------------------+
+|                                             | <<Bundle Link>>
+*---------------------------------+------------------------+
+| RSE Alpha Release ${buildVersion} (zip)     | {{{http://www.${devServerDomain}/maven/org/gwe/rse/${buildVersion}/rse-${buildVersion}-server.zip}rse-${buildVersion}-server.zip}}
+*---------------------------------+------------------------+
+| RSE Alpha Release ${buildVersion} (tar.gz)  | {{{http://www.${devServerDomain}/maven/org/gwe/rse/${buildVersion}/rse-${buildVersion}-server.tar.gz}rse-${buildVersion}-server.tar.gz}}
+*---------------------------------+------------------------+
+| RSE Alpha Release ${buildVersion} (tar.bz2) | {{{http://www.${devServerDomain}/maven/org/gwe/rse/${buildVersion}/rse-${buildVersion}-server.tar.bz2}rse-${buildVersion}-server.tar.bz2}}
+*---------------------------------+------------------------+
+
+* Previous Releases
+
+  All previous releases of RSE can be found {{{http://www.${devServerDomain}/maven/org/gwe/rse/}here}}.
+
+* System {Requirements}
+
+*----------------------+---------------------------------------------------------------------------------------------+
+| <<JDK>>              | 1.5 or above
+*----------------------+---------------------------------------------------------------------------------------------+
+| <<Memory>>           | 500 MB
+*----------------------+---------------------------------------------------------------------------------------------+
+| <<Disk>>             | 2 GB 
+*----------------------+---------------------------------------------------------------------------------------------+
+| <<Operating System>> | No minimum requirement. On Windows, Windows NT and above, Cygwin is required.
+*----------------------+---------------------------------------------------------------------------------------------+
+
+* {Installation} Instructions
+
+  <RSE is a Java 1.5 based system, so you must 
+  have> <<{{{http://java.sun.com/javase/downloads/index_jdk5.jsp}Java 1.5}}>> <or higher installed in order to proceed.>
+
+** Unix-based Operating Systems (Linux, Solaris and Mac OS X)
+
+  [[]] Extract the distribution archive, i.e. <<<rse-${buildVersion}-server.zip>>> to the directory you wish to install 
+        RSE ${buildVersion}. These instructions assume you chose <<<"/usr/local/rse">>>. The directory 
+        <<<rse-${buildVersion}>>> will be created from the archive.
+
+  [[]] In a command terminal, add the <<<RSE_HOME>>> environment variable, e.g. <<<"export RSE_HOME=/usr/local/rse/rse-${buildVersion}">>>.
+
+  [[]] Add <<<RSE_HOME/bin>>> environment variable to your path, e.g. <<<"export PATH=$RSE_HOME/bin:$PATH">>>.
+
+  [[]] Make sure that <<<JAVA_HOME>>> is set to the location of your JDK, e.g. <<<"export JAVA_HOME=/usr/java/jdk1.5.0_02">>> 
+        and that <<<"$JAVA_HOME/bin">>> is in your <<<PATH>>> environment variable.
+
+
+** Windows 2000/XP (Under Construction - Unresolved Cygwin related problems)
+
+  [[]] Install {{{http://cygwin.com/}Cygwin}} in your system if it is not already installed.
+
+  [[]] Unzip the distribution archive, i.e. <<<rse-${buildVersion}-server.zip>>> to the directory you wish to install 
+        RSE ${buildVersion}. These instructions assume you chose <<<"C:\Program Files\RSE">>>. The directory 
+        <<<rse-${buildVersion}>>> will be created from the archive.
+
+  [[]] Add the <<<RSE_HOME>>> environment variable by opening up the system properties (WinKey + Pause),
+        selecting the "Advanced" tab, and the "Environment Variables" button, then adding the <<<RSE_HOME>>>
+        variable in the user variables with the value <<<"C:\Program Files\RSE\rse-${buildVersion}">>>.
+
+  [[]] In the same dialog, update/create the <<<Path>>> environment variable in the user variables with the value 
+        <<<"%RSE_HOME%;%Path%">>> to make RSE available from the command line.
+
+  [[]] In the same dialog, make sure that <<<JAVA_HOME>>> exists in your user variables or in the system variables and 
+        it is set to the location of your JDK, e.g. <<<"C:\Program Files\Java\jdk1.5.0_02">>> and that 
+        <<<"%JAVA_HOME%\bin">>> is in your <<<Path>>> environment variable.
+
+  [[]] Open a new command prompt (Winkey + R then type <<<"cmd">>>) and run <<<"mvn --version">>> to verify that it is 
+        correctly installed.
+
+
+* {Updating} Instructions
+
+  [[]] Install the new version of RSE as described in the <{{{Installation}'Installation Instructions' section}}>.
+
+  [[]] Run <<<"rse-util-server.sh [RSE_HOME_OF_OLD_VERSION]">>>.
+

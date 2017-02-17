@@ -1,0 +1,61 @@
+ ------
+ Features
+ ------
+ Marco Ruiz
+ ------
+ February 2010
+ ------
+
+
+Features
+
+ GWE's RSE comes with a wide range of features. The following list describes the most relevant and important, categorized 
+ according to end user functionality, scalability and extensibility and overall product robustness.
+
+* Functionality
+
+ These are the features the end user will immediately benefit and care about.
+
+ * Real time navigation through records powered by usage of slider controls built using rich web technologies 
+ (Javascript, AJAX and JSON).
+
+ * Real time simple filtering of records (from a record set) using a particular value for a particular field.
+ 
+ * Compounding of simple filters.
+ 
+ * Real time statistics of manipulated record sets: total filtered records and index of currently selected record from 
+ within the whole.
+  
+ * Saving record sets capability, so they can be accessed and manipulated in the future.
+
+ * Usage of sessions and workspaces per user so a single RSE system can handle multiple users without problems.
+ 
+ * Auto resolution and loading of media type of field values. For example is a field value seems to reference an image,
+ the system will try to load the referenced image.
+ 
+ * Ability to load record set descriptors from local and remote resources (http GET and http POST).
+ 
+ * Support of CSV formatted files as record set descriptors.
+ 
+* Scalability and Extensibility
+
+ These are features to be exploited by developers to create their own custom implementations of different GWE components:
+
+ * Infrastructure to easily plug drivers to support different sources of record set descriptors. CSV driver included in 
+ the core distribution of RSE. In the future, drivers to support other formats will be built on top of this infrastructure
+ (XML, SQL, P2EL, JDBC, JSON, Python data structures, etc). 
+ 
+ * Infrastructure to plug user interfaces. The web interface that comes standard with RSE has been built on top of 
+ this infrastructure; but others can be easily built on top.
+ 
+* Robustness
+
+ These are internal, low level features; which are meant to give GWE the robustness level expected from a true industrial strength enterprise system:
+
+ * Industry strong web server to provide access to the RSE web interface. 
+ 
+ * Internal relational database to provide true data warehousing for the saved record sets.
+ 
+ * Rich web technologies to maximize performance on the client side with a minimum of usage of resources. Great care has 
+ been taken to appropriately built the web interface using Javascript, AJAX and JSON technologies to achieve such goal.
+  

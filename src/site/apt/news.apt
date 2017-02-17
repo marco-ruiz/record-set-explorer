@@ -1,0 +1,27 @@
+ ------
+ News
+ ------
+ Marco Ruiz
+ ------
+ August 2008
+ ------
+
+News 
+
+* <GWE's RSE 0.6.1.alpha Released>
+
+ <February 23, 2010>
+
+ The first release of GWE's RSE (version 0.6.1.alpha) is now available in alpha. RSE (Record Set Explorer) is a brand 
+ new tool for researchers to interactively explore and manipulate record sets. This product is intended to generalize, 
+ extend and replace GWE's result browser module. In a future release, it will include extensions to provide tighter 
+ integration with GWE, in order for them to easily exchange the result sets of parameter exploration experiments 
+ (to be explored/manipulated by researchers using RSE).
+ 
+ The product has passed numerous system tests and is currently available to the general public on "as is" basis. 
+ 
+ Finally, its project site is now online (<{{{http://www.gridwizardenterprise.org/rse}http://www.gridwizardenterprise.org/rse}}>) 
+ and detailed information about RSE can be found there, including a short; but very detailed 
+ <{{{http://www.youtube.com/watch?v=ebWqTHf5i5Y&hd=1}YouTube demo video}}>; which we highly recommend users to watch.
+
+ 

@@ -1,0 +1,54 @@
+#macro (defineRecordSet $rsePost)
+	#pageHeader("New Record Set" ${rseDefine} "book.png")
+	#h3ModeSection("Record Set Source Parameters" true "disconnect.png")
+	<form name='parameters' action="${rsePost}" enctype="multipart/form-data" method="post">
+		<table class="bodyTable" id="parametersType" width="100%">
+			<tr class='a'>
+				<td align='left' width=200>Record Set Friendly Name:</td>
+				<td align='left'><input type="text" name="sourceName" /></td>
+			</tr>
+			<tr class='b'>
+				<td align='left'>Source of CSV file:</td>
+				<td align='left'>
+					<select name='sourceType' size=1 onChange="selectCSVSource(this.selectedIndex);">
+						<option value="1" selected>Local File</option>
+						<option value="2">Remote File</option>
+					</select>
+				</td>
+			</tr>
+		</table>
+		<table class="bodyTable" id="parametersLocal" width="100%">
+			<tr class='a'>
+				<td align='left' width=200>Local file:</td>
+				<td align='left'><input type="file" name="sourceCSV" size=100 /></td>
+			</tr>
+		</table>
+		<table class="bodyTable" id="parametersRemote" width="100%" style='display:none'>
+			<tr class='a'>
+				<td align='left' width=200>URL:</td>
+				<td align='left'><input type="text" name="sourceURL" size=100 /></td>
+			</tr>
+			<tr class='b'>
+				<td align='left'>User:</td>
+				<td align='left'><input type="text" name="sourceUser" /></td>
+			</tr>
+			<tr class='a'>
+				<td align='left'>Password:</td>
+				<td align='left'><input type="password" name="sourcePassword" /></td>
+			</tr>
+			<tr class='b'>
+				<td align='left'>Optional file to post:</td>
+				<td align='left'><input type="file" name="sourcePost" size=100 /></td>
+			</tr>
+		</table>
+		<br>
+		<input type="submit" value="Create Record Set" />
+		<script type="text/javascript">
+			selectCSVSource = function(index) {
+				getEle("parametersLocal" ).style.display = (index == 0) ? "block" : "none";  
+				getEle("parametersRemote").style.display = (index == 0) ? "none"  : "block";  
+			};
+		</script>
+	</form>
+#end
+

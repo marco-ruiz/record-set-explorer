@@ -1,0 +1,70 @@
+ ------
+ Credits
+ ------
+ Marco Ruiz
+ ------
+ January 2010
+ ------
+
+Credits
+
+* <<Funding>>
+
+ GWE's RSE would not have been possible without funding from:
+  
+ * {{{http://www.na-mic.org/}National Alliance for Medical Image Computing (NA-MIC)}} 
+ 
+ * {{{http://crbs.ucsd.edu/}UCSD's Center for Research in Biological Systems (CRBS)}}
+
+* <<Open Source Community>>
+
+ GWE's RSE would not have been possible without the following open source development resources:
+
+ * {{{http://db.apache.org/derby/}Derby - DBMS}}
+ 
+ * {{{http://velocity.apache.org/}Velocity - Template Engine}}
+
+ * {{{http://www.mortbay.org/jetty/}Jetty - Web Server}}
+ 
+ * {{{http://logging.apache.org/log4j/}Log4j - Logging Utility}}
+
+ * {{{http://opencsv.sourceforge.net/}OpenCSV - CSV Parser Library}}
+ 
+ * {{{http://commons.apache.org/}Multiple Apache/Jakarta Commons Projects}}
+ 
+ * {{{http://code.google.com/p/json-simple/}JSON Simple - JSON Encoder/Decoder Toolkit}}
+
+ * {{{http://jquery.com/}JQuery - Javascript/AJAX Library}}
+
+ * {{{http://webfx.eae.net/}WebFX - DHTML Widgets}}
+ 
+ * {{{http://www.famfamfam.com/lab/icons/silk/}FamFamFam - Icons}}
+ 
+ []
+ 
+ GWE's RSE would not have been possible without the following open source development tools:
+ 
+ * {{{http://www.eclipse.org/}Eclipse - IDE}}
+ 
+ * {{{http://maven.apache.org/}Maven - Software Project Management Tool}}
+ 
+ * {{{http://subversion.tigris.org/}Subversion - Source Code Management System (SCM)}}
+ 
+ * {{{https://hudson.dev.java.net/}Hudson - Continuous Integration Engine}}
+ 
+ * {{{http://www.junit.org/}JUnit - Testing Framework}}
+ 
+ * {{{http://httpd.apache.org/}Apache - Web Server}}
+ 
+ * {{{http://tomcat.apache.org/}Tomcat - Web Application Container}}
+ 
+ []
+
+ GWE's RSE would not have been possible without the following, free licensed (for open source projects such as GWE), development tools:
+ 
+ * {{{http://www.atlassian.com/software/jira/}JIRA - Issue Traker}}
+ 
+ []
+
+ 
+ 

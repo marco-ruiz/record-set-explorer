@@ -1,0 +1,28 @@
+10
+
+dir
+0
+svn+ssh://www.gridwizard.org/home/svn/repo/rse/trunk/bin
+svn+ssh://www.gridwizard.org/home/svn/repo
+add
+
+
+
+
+
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+6db00bcc-7b2a-0410-87aa-e838ee508776
+

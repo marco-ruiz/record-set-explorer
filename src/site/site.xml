@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<!--
+	Copyright 2007-2008 the original author or authors.
+	
+	Licensed under the Apache License, Version 2.0 (the "License");
+	you may not use this file except in compliance with the License.
+	You may obtain a copy of the License at
+	
+	http://www.apache.org/licenses/LICENSE-2.0
+	
+	Unless required by applicable law or agreed to in writing, software
+	distributed under the License is distributed on an "AS IS" BASIS,
+	WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+	See the License for the specific language governing permissions and
+	limitations under the License.
+-->
+
+<project name="RSE">
+	<!-- TODO: banners, skin, publish date, version should be inherited from Maven itself -->
+	<bannerLeft>
+		<name>RSE</name>
+		<src>images/logo.jpg</src>
+		<href>gwe-index.html</href>
+	</bannerLeft>
+	<bannerRight>
+		<src>images/rse.png</src>
+		<href>index.html</href>
+	</bannerRight>
+	<skin>
+		<groupId>org.apache.maven.skins</groupId>
+		<artifactId>maven-stylus-skin</artifactId>
+		<!-- 
+			<artifactId>maven-default-skin</artifactId>
+			<version>1.0</version>
+		-->
+	</skin>
+	<publishDate format="dd MMM yyyy" position="left" />
+	<version position="left" />
+
+	<body>
+		<head>
+			<meta name="description"
+				content="GWE's RSE (Record Set Explorer) is an, open source, end user system aimed to provide researchers with the capabilities to interactively explore record sets. This should be extremely useful for reviewing results of parameter exploration experiments as well as any other structured record set such as results obtained from querying XNAT systems." />
+			<meta name="keywords"
+				content="record set, database, viewer, explorer, data set, csv, gwe, grid, cluster, parallel, distributed, computing, hpc, high performance, resource manager, job scheduler, condor, sge, pbs, lsf, torque, globus, metascheduler, jsdl, java, open source" />
+		</head>
+
+		<!-- TODO: Link, head, reports should be inherited -->
+		<!-- TODO: use breadcrumbs more structure, links for links, and inherit subprojects as a menu or not at all -->
+		<links>
+			<item name="GWE Project Site" href="gwe-index.html" />
+			<item name="NAMIC" href="http://www.na-mic.org/" />
+			<!-- 
+				<item name="Clients" href="http://www.gridwizard.org/gwe/client" />
+				<item name="Daemons" href="http://www.gridwizard.org/gwe/daemon" />
+			-->
+		</links>
+		<!-- 
+			<head>
+			<script type="text/javascript">
+			var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+			document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js'
+			type='text/javascript'%3E%3C/script%3E"));
+			</script>
+			<script type="text/javascript">
+			var pageTracker = _gat._getTracker("UA-3625573-1"); pageTracker._initData();
+			pageTracker._trackPageview();
+			</script>
+			</head>
+		-->
+		<menu name="Overview">
+			<item name="Introduction"  href="index.html" />
+			<item name="News"          href="news.html" />
+			<item name="Release Notes" href="changes-report.html" />
+			<item name="Features"      href="features.html" />
+			<item name="Credits"       href="credits.html" />
+			<item name="License"       href="license.html" />
+		</menu>
+		<!-- 
+			<menu name="Get GWE">
+			<item name="Download" href="download.html" />
+			<item name="Release Notes" href="release.html" />
+			<item name="License" href="license.html" />
+			</menu>
+		-->
+		<menu name="Guides">
+			<item name="Installation"  href="guides/install.html" />
+			<item name="Usage"         href="guides/user.html"    />
+		</menu>
+
+		<menu name="Project Collaboration">
+<!-- 		
+			<item name="Issue Tracking"         href="https://issues.nbirn.net/jira/browse/GWE" />
+			<item name="Continuous Integration" href="coming-soon.html" />
+ -->
+			<item name="Forum"                  href="http://groups.google.com/group/gwe-forum" />
+			<item name="Source Repository"      href="source-repository.html" />
+			<item name="Team"                   href="team-list.html" />
+		</menu>
+
+		<menu name="Source Code Information">
+			<item name="Browser"  href="xref/index.html" />
+			<item name="JavaDocs" href="apidocs/index.html" />
+			<item name="Analysis" href="jdepend-report.html" />
+			<item name="Tag List" href="taglist.html" />
+		</menu>
+
+	</body>
+	<poweredBy>
+		<logo name="Maven" href="http://maven.apache.org/" img="http://maven.apache.org/images/logos/maven-feather.png" />
+	</poweredBy>
+</project>
+
+

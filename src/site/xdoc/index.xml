@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<document>
+  <properties>
+    <title>Welcome to "GWE's Record Set Explorer" !</title>
+  </properties>
+  <body>
+  
+  <table><tr><td valign="top">
+	  <section name="Welcome to RSE">
+	      <p>
+			GWE's RSE (Record Set Explorer) is an open source system part of the family of GWE (grid wizard enterprise) 
+			products. Its aim is to provide a generic; but powerful and easy to use tool for users to interactively 
+			explore and manipulate record sets. 
+	      </p><p>
+			In the context of parameter exploration experiments (domain problem of the GWE system), such tool is 
+			extremely useful as it allows researchers to review results of such experiments, its set of input 
+			parameters and any other structured record set such as results sets obtained from querying XNAT systems.
+	      </p><p>
+			Getting started with RSE is simple! Just install the product (as detailed in the <i><a href="guides/install.html">
+			'Installation Guide'</a></i>), launch it (as detailed in the <i><a href="guides/user.html">'Usage Guide'</a></i>),
+			and use it as demo'ed in the YouTube video embedded on the right.
+	      </p><p>
+			Please send me your questions, ideas and/or feedback at <i><a href="mailto:mruiz@ncmir.ucsd.edu">
+			mruiz@ncmir.ucsd.edu</a></i> or share them with the entire project community in the 
+			<i><a href="http://groups.google.com/group/gwe-forum?hl=en">project forum</a></i>.
+	      </p><p>
+			Thanks for your support. Enjoy!
+	      </p>
+	  </section>
+  </td><td>
+<!-- 
+	<object width="480" height="385"><param name="movie" value="http://www.youtube.com/v/ebWqTHf5i5Y&hl=en_US&fs=1&hd=1"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/ebWqTHf5i5Y&hl=en_US&fs=1&hd=1" type="application/x-shockwave-flash" width="480" height="385" allowscriptaccess="always" allowfullscreen="true"></embed></object>
+ -->  
+  </td></tr></table>
+  
+  </body>
+</document>
+

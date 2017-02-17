@@ -1,0 +1,27 @@
+ ------
+ Welcome to "GWE's Record Set Explorer" !
+ ------
+ Marco Ruiz
+ ------
+ February 2010
+ ------
+
+Welcome to RSE !
+
+ RSE (Record Set Explorer) is an open source system part of the family of GWE (grid wizard enterprise) products. 
+ Its aim is to provide a generic; but powerful and easy to use tool for users to interactively explore record sets. 
+ 
+ In the context of parameter exploration experiments (domain of the GWE system), such tool is extremely useful, since
+ it allows researchers to review results of such experiments, its set of input parameters and any other structured 
+ record set such as results sets obtained from querying XNAT systems.
+ 
+ Getting started with RSE is simple! Just install the product (as detailed in the 
+ <{{{guides/install.html}'Installation Guide'}}>), launch it (as detailed in the <{{{guides/install.html}'Usage Guide'}}>),
+ and use it as demo'ed in the YouTube on the right.
+ 
+ Please send me your questions, ideas and/or feedback at <{{{mailto:mruiz@ncmir.ucsd.edu}mruiz@ncmir.ucsd.edu}}> or
+ share them with the entire project community in the <{{{http://groups.google.com/group/gwe-forum?hl=en}project forum}}>.   
+ 
+ Thanks for your support. Enjoy!
+
+ 

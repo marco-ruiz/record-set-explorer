@@ -1,0 +1,10 @@
+#macro (rseBrowser $sourceNumber $metadata $firstRec $tableId $jsonURI)
+	<table class="bodyTable" id="${tableId}"></table>
+	<script type="text/javascript">
+		var jsonMeta = ${metadata.toJSONString()};
+		var jsonData = ${firstRec.toJSONString()};
+		var browser = new RseBrowser("${sourceNumber}", jsonMeta, jsonData, "${tableId}", "${jsonURI}");
+	</script>
+#end
+
+	
